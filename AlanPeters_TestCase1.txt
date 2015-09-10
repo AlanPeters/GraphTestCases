@@ -1,0 +1,21 @@
+* Graphs test file by Alan Peters
+* File: AlanPeters_TestCase1.txt
+
+
+unweighted
+undirected
+begin
+end
+addEdge A B
+true
+hasEdge B A
+true
+deleteEdge B A
+true
+hasEdge A B
+false
+addEdge A B
+true
+addEdge B A
+false
+
