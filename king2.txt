@@ -1,0 +1,68 @@
+* king2.txt
+* Test Graph 2.  Test Graph 2 contains:
+* Vertices: D, E, F
+* Edges: D-E, E-F, F-D
+* Weighted, non-directional
+* Tests a three vertex graph, fully connected, is dense
+weighted
+undirected
+begin
+D E F
+D E 6
+E F 9
+F D 3
+end
+isWeighted
+true
+isDirected
+false
+isSparse
+false
+isDense
+true
+isConnected
+true
+isFullyConnected
+true
+hasVertex D
+true
+hasVertex E
+true
+hasVertex F
+true
+hasEdge D E
+true
+hasEdge E D
+true
+hasEdge E F
+true
+hasEdge F E
+true
+hasEdge F D
+true
+hasEdge D F
+true
+deleteVertex D
+true
+deleteVertex E
+true
+deleteVertex F
+true
+hasVertex D
+false
+hasVertex E
+false
+hasVertex F
+false
+hasEdge D E
+false
+hasEdge E D
+false
+hasEdge E F
+false
+hasEdge F E
+false
+hasEdge F D
+false
+hasEdge D F
+false
