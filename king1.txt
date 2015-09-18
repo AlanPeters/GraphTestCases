@@ -1,0 +1,51 @@
+unweighted
+undirected
+begin
+A B C D
+A D
+B C
+end
+isWeighted
+false
+isDirected
+false
+isSparse
+false
+isDense
+false
+isConnected
+false
+isFullyConnected
+false
+hasVertex A
+true
+hasVertex B
+true
+hasVertex C
+true
+hasVertex D
+true
+hasEdge A D
+true
+hasEdge B C
+true
+deleteVertex A
+true
+deleteVertex B
+true
+deleteVertex C
+true
+deleteVertex D
+true
+hasVertex A
+false
+hasVertex B
+false
+hasVertex C
+false
+hasVertex D
+false
+hasEdge A D
+false
+hasEdge B C
+false
