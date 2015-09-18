@@ -1,0 +1,57 @@
+* Test Graph 3. Graph contains:
+* Vertices: G, H, I, J, K
+* Edges: H->G
+* Unweighted, directional
+* Five vertices, one edge, isSparse
+unweighted
+undirected
+begin
+G H I J K
+H G
+end
+isWeighted
+false
+isDirected
+false
+isSparse
+true
+isDense
+false
+isConnected
+false
+isFullyConnected
+false
+hasVertex G
+true
+hasVertex A
+false
+hasVertex H
+true
+hasVertex F
+false
+hasVertex I
+true
+hasVertex L
+false
+hasVertex J
+true
+hasVertex K
+true
+hasEdge G H
+true
+hasEdge H G
+true
+deleteEdge H G
+true
+hasEdge H G
+false
+deleteVertex G
+true
+deleteVertex H
+true
+deleteVertex I
+true
+deleteVertex J
+true
+deleteVertex K
+true
